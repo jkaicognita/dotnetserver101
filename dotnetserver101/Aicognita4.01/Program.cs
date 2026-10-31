@@ -4,6 +4,18 @@ using System;
 using System.IO;
 using System.Text.Json;
 //string username;
+
+//-----------------------------------------GET PARAMETERS FOR CONNECTION FROM SECURE FILE----------------------------------
+const string ConfigPath = "/home/opc/.config/aicognita/aicognita.json";
+
+public sealed class OracleConfig
+{
+    public string UserName { get; set; } = "";
+    public string Password { get; set; } = "";
+    public string DataSource { get; set; } = "";
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
 Console.WriteLine("User name:");
 var username = Console.ReadLine();
 Console.WriteLine("Password");
