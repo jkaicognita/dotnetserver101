@@ -15,6 +15,11 @@ public sealed class OracleConfig
     public string DataSource { get; set; } = "";
 }
 
+OracleConfig config =
+                JsonSerializer.Deserialize<OracleConfig>(json)
+                ?? throw new InvalidOperationException();
+                
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------
 Console.WriteLine("User name:");
 var username = Console.ReadLine();
