@@ -449,11 +449,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/develsoft/dev/dev_ora/dotnetserver101/ProviderConfig/ProviderConfig.csproj",
+      "projectUniqueName": "/home/develsoft/dev/dev_ora/ProviderConfig/ProviderConfig.csproj",
       "projectName": "ProviderConfig",
-      "projectPath": "/home/develsoft/dev/dev_ora/dotnetserver101/ProviderConfig/ProviderConfig.csproj",
+      "projectPath": "/home/develsoft/dev/dev_ora/ProviderConfig/ProviderConfig.csproj",
       "packagesPath": "/home/develsoft/.nuget/packages/",
-      "outputPath": "/home/develsoft/dev/dev_ora/dotnetserver101/ProviderConfig/obj/",
+      "outputPath": "/home/develsoft/dev/dev_ora/ProviderConfig/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/develsoft/.nuget/NuGet/NuGet.Config"
