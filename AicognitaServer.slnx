@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Aicognita4.01/Aicognita4.01.csproj" />
+  <Project Path="Aicognita5.01/Aicognita5.01.csproj" />
+  <Project Path="ProviderConfig/ProviderConfig.csproj" />
+</Solution>
